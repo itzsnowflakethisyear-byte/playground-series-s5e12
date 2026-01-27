@@ -1,0 +1,14 @@
+data_ingestion:
+  gcs:
+    bucket: diabetespred
+    raw_prefix: Raw Data
+
+  local:
+    raw_dir: data/raw
+
+  files:
+    train: train.csv
+    test: test.csv
+
+gcp:
+  project_id: "project-mlops-485417"
