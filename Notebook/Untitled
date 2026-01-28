@@ -1,0 +1,6 @@
+numeric_t_cols = train_df.select_dtypes(include='number').columns
+cat_cols = train_df.select_dtypes(exclude='number').columns
+
+target_var = 'diagonsed_diabetes'
+
+numeric_cols = numeric_t_cols.drop(target_var)
