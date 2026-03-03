@@ -6,3 +6,5 @@ seaborn
 google-cloud-storage
 scikit-learn
 pyyaml
+shap
+catboost
